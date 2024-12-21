@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <title>Home - Exclusive E-Commerce Website</title>
+  </head>
+  <body>
+    <div class="top_nav">
+      <div class="container top_nav_container">
+        <div class="top_nav_wrapper">
+          <p class="tap_nav_p">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
+          <a href="#" class="top_nav_link">SHOP NOW</a>
+        </div>
+      </div>
+    </div>
+    <nav class="nav">
+      <div class="container nav_container">
+        <a href="/" class="nav_logo">Exclusive</a>
+        <ul class="nav_list">
+          <li class="nav_item"><a href="/" class="nav_link">Home</a></li>
+          <li class="nav_item">
+            <a href="/about.html" class="nav_link">About</a>
+          </li>
+          <li class="nav_item"><a href="/contact.html" class="nav_link">Contact</a></li>
+          <li class="nav_item">
+            <a href="/sign-up.html" class="nav_link">Sign up</a>
+          </li>
+        </ul>
+        <div class="nav_items">
+          <form action="#" class="nav_form">
+            <input
+              type="text"
+              class="nav_input"
+              placeholder="What are you looking for?"
+            />
+            <img src="img/search.png" alt="Search Icon" class="nav_search" />
+          </form>
+          <a href="/favorite.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="nav_hert"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+              />
+            </svg>
+          </a>
+          <a href="/cart.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="nav_cart"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+              />
+            </svg>
+          </a>
+          <a href="/profile.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="nav_cart profile_me">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+            
+          </a>
+        </div>
+        <span class="hamburger">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </span>
+      </div>
+    </nav>
+    <nav class="mobile_nav mobile_nav_hide">
+      <ul class="mobile_nav_list">
+        <li class="list_nav_item">
+          <a href="/" class="mobile_nav_link">Home</a>
+        </li>
+        <li class="list_nav_item">
+          <a href="#" class="mobile_nav_link">About</a>
+        </li>
+        <li class="list_nav_item">
+          <a href="#" class="mobile_nav_link">Contact</a>
+        </li>
+        <li class="list_nav_item">
+          <a href="/sign-up.html" class="mobile_nav_link">Sign Up</a>
+        </li>
+        <li class="list_nav_item">
+          <a href="/cart.html" class="mobile_nav_link">Cart</a>
+        </li>
+      </ul>
+    </nav>
+    <!---------------------------------------contact-------------------------------------->
+    <div class="container container_contact">
+      <!-- Contact Information Section -->
+      <div class="contact-info">
+          <div>
+              <div class="icon">📞</div>
+              <h3>Call To Us</h3>
+              <p>We are available 24/7, 7 days a week.</p>
+              <p>Phone: +880611122222</p>
+          </div>
+          <div class="divider"></div>
+          <div>
+              <div class="icon">✉️</div>
+              <h3>Write To Us</h3>
+              <p>Fill out our form and we will contact you within 24 hours.</p>
+              <p>Emails: <a href="mailto:customer@exclusive.com">customer@exclusive.com</a></p>
+              <p>Emails: <a href="mailto:support@exclusive.com">support@exclusive.com</a></p>
+          </div>
+      </div>
+
+      <!-- Contact Form Section -->
+      <div class="contact-form">
+          <form action="#" method="post">
+              <div class="form-group">
+                  <input type="text" name="name" placeholder="Your Name *" required>
+              </div>
+              <div class="form-group">
+                  <input type="email" name="email" placeholder="Your Email *" required>
+              </div>
+              <div class="form-group">
+                  <input type="tel" name="phone" placeholder="Your Phone *" required>
+              </div>
+              <div class="form-group">
+                  <textarea name="message" placeholder="Your Message" required></textarea>
+              </div>
+              <div class="form-group">
+                  <button type="submit" class="btn">Send Message</button>
+              </div>
+          </form>
+      </div>
+  </div>
+    <!---------------------------------------footer-------------------------------------->
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="footer_item">
+          <a href="#" class="footer_logo">Exclusive</a>
+          <p class="footer_p">Get 10% off your first order</p>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titel">Support</h3>
+          <ul class="footer_list">
+            <li>exclusive@gmail.com</li>
+            <li>+0123456781</li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titel">Account</h3>
+          <ul class="footer_list">
+            <li>My Account</li>
+            <li>Login / Register</li>
+            <li>Cart</li>
+            <li>Wishlist</li>
+            <li>Shop</li>
+          </ul>
+        </div>
+        <div class="footer_item">
+          <h3 class="footer_item_titel">Quick Link</h3>
+          <ul class="footer_list">
+            <li>Privacy Policy</li>
+            <li>Terms Of Use</li>
+            <li>FAQ</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_butom">
+        <div class="container footer_buttom_container">
+          <p class="footer_copy">©Copyright Rimel 2024. All right reserved</p>
+        </div>
+      </div>
+    </footer>
+    <!--  JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="JS/app.js"></script>
+    <script src="JS/ToFavoret.js"></script>
+  </body>
+</html>
